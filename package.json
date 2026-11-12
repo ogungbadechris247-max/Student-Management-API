@@ -1,0 +1,17 @@
+{
+  "name": "student-management-api",
+  "version": "1.0.0",
+  "description": "A Student Management REST API built with Node.js and Express.js",
+  "main": "studententry.js",
+  "scripts": {
+    "start": "node studententry.js",
+    "dev": "nodemon studententry.js"
+  },
+  "type": "commonjs",
+  "dependencies": {
+    "express": "^5.3.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.14"
+  }
+}
